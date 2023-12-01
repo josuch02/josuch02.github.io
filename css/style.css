@@ -153,8 +153,14 @@ font-family: 'Barlow Condensed', sans-serif;
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+  font-family: 'Karla', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(100, 100, 255, 0.8);
 }
 
 @media all and (max-width:700px) {
